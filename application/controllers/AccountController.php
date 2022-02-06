@@ -7,9 +7,9 @@ use Framework\Core\Controller;
 class AccountController extends Controller
 {
     public function loginAction() {
-        echo 'Login page';
+        $this->view->render('Login page');
     }
     public function registerAction() {
-        echo 'Register page';
+        $this->view->render('Register page');
     }
 }
